@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main {
+    color: #6a4fe3;
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.stock-main-img {
+    background-image: url('https://ik.imagekit.io/irqd6pg0e/bull%20and%20home%20page.jpg');
+    height: 100vh;
+    width: 99vw;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #161b22;
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #58a6ff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: #c9d1d9;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    color: #58a6ff;
+}
+
+.stock-heading {
+    font-size: 30px;
+    font-family: Lobster;
+    font-weight: bold;
+    color: black;
+}
+
+.stock-para {
+    font-size: 10px;
+    font-family: Playfair;
+    font-weight: bold;
+    color: red;
+}
+
+.bg1 {
+    animation-name: bg1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bg1 {
+    0% {
+        transform: translate(0px, 30px);
+    }
+
+    100% {
+        transform: translate(0px, -50px);
+    }
+}
+
+
+
+.stock-buy {
+    background-image: url('https://ik.imagekit.io/irqd6pg0e/download%20(1).jpg');
+
+    width: 100%;
+    margin: 10px;
+    border-radius: 16px;
+    background-size: cover;
+}
+
+.stock-buy-heading {
+    font-size: 25px;
+    font-family: Roboto;
+
+}
+
+
+
+.stock-sub-color {
+    background-color: black;
+    height: 100px;
+    width: 97vw;
+    border-radius: 10px;
+    color: red;
+    padding: 10px;
+    margin: 8px;
+    font-family: "Roboto";
+    padding-left: 10px;
+
+
+
+}
+
+.sbi {
+    font-family: "Roboto";
+    padding-left: 10px;
+    font-size: 10px;
+
+}
+
+.bg2 {
+    animation-name: bg2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bg2 {
+    0% {
+        transform: translate(0px, 30px);
+    }
+
+    100% {
+        transform: translate(0px, -50px);
+    }
+}
+
+.stock-graph {
+    height: 60px;
+    width: 60px;
+}
+
+.treanding-main-img {
+    background-color: black;
+    width: 100%;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.treanding-main-heading {
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+
+}
+
+.treanding-main-para {
+    color: white;
+    font-size: 10px;
+
+}
+
+.treanding-main-heading2 {
+    color: white;
+    font-size: 15px;
+
+}
+
+.treanding-main-heading2:hover {
+    text-decoration: underline;
+}
+
+.treanding-img {
+    height: 90px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.treanding-main-2 {
+    background-color: #454c52;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.footerbox {
+    background: linear-gradient(90deg, #10141f 70%, #23334a 100%);
+    color: #cceeef;
+    border-radius: 15px;
+    box-shadow: 0 -2px 25px #23e4c738;
+    padding: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 10px;
+}
+
+.trending {
+    animation-name: treanding;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes treanding {
+    0% {
+        transform: translate(-20px, 0px)
+    }
+
+    100% {
+        transform: translate(-10px, 10px)
+    }
+}
+
+.tre {
+    animation-name: tre;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes tre {
+    0% {
+        transform: translate(20px, 0px)
+    }
+
+    100% {
+        transform: translate(-10px, 00px)
+    }
+}
+
+.welcom-img {
+    background-image: url('https://ik.imagekit.io/irqd6pg0e/world.jpg');
+    height: 60vh;
+    width: 99vw;
+    background-size: cover;
+    text-align: center;
+}
+
+.welcom-heading {
+    color: #f5f0f7;
+    font-size: 20px;
+    font-family: Monoton;
+
+
+}
+
+.welcom-para {
+    color: #ffffff;
+    font-size: 10px;
+    font-family: Roboto;
+
+}
+
+
+.bgg {
+    animation-name: bgq;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bgq {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
